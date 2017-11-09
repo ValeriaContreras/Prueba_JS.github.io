@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Prueba JS</title>
+	<link rel="stylesheet" href="assets/css/miestilo.css">
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			
+    </div>
+    			<ul class="nav navbar-nav">
+      			<li class="active"><a href="#">Inicio</a></li>
+      			<li><a href="#">Notificaciones</a></li>
+      			<li><a href="#">Mensajes</a></li>
+    </ul>
+
+    <form class="navbar-form navbar-left">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Buscar en Twitter...">
+      </div>
+    </form>
+  </div>
+</nav>
+
+	<div class="container">
+<div class="row">
+<h1>Twitter Profile Card</h1>
+<p>You can use with Twitter API, bot or manual.</p>
+<!-- code start -->
+<div class="twPc-div">
+    <a class="twPc-bg twPc-block"></a>
+
+	<div>
+		<div class="twPc-button">
+            <!-- Twitter Button | you can get from: https://about.twitter.com/tr/resources/buttons#follow -->
+            <a href="https://twitter.com/mertskaplan" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @valeriednoir</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <!-- Twitter Button -->   
+		</div>
+
+		<a title="Valeria Contreras" href="https://twitter.com/valeriednoir" class="twPc-avatarLink">
+			<img alt="Valeria Contreras" src="assets/img/mifoto.jpg" class="twPc-avatarImg">
+		</a>
+
+		<div class="twPc-divUser">
+			<div class="twPc-divName">
+				<a href="https://twitter.com/valeriednoir">Valeria Contreras H.</a>
+			</div>
+			<span>
+				<a href="https://twitter.com/valeriednoir">@<span>valeriednoir</span></a>
+			</span>
+		</div>
+
+		<div class="twPc-divStats">
+			<ul class="twPc-Arrange">
+				<li class="twPc-ArrangeSizeFit">
+					<a href="https://twitter.com/valeriednoir" title="4.440 Tweet">
+						<span class="twPc-StatLabel twPc-block">Tweets</span>
+							<span class="twPc-StatValue">4.440</span>
+				</a>
+				</li>
+				<li class="twPc-ArrangeSizeFit">
+					<a href="https://twitter.com/valeriednoir/following" title="491 Following">
+						<span class="twPc-StatLabel twPc-block">Following</span>
+						<span class="twPc-StatValue">400</span>
+					</a>
+				</li>
+				<li class="twPc-ArrangeSizeFit">
+					<a href="https://twitter.com/valeriednoir/followers" title="491 Followers">
+						<span class="twPc-StatLabel twPc-block">Followers</span>
+						<span class="twPc-StatValue">400</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- fin de la primera columna -->
+</div>
+</div>		
+</body>
+</html>
