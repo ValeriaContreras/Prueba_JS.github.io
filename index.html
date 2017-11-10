@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<title>Prueba JS</title>
-	<link rel="stylesheet" href="assets/css/miestilo.css">
 
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,85 +12,107 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/js/javascript.js"></script>
+<script src="https://use.fontawesome.com/cf680f79d8.js"></script>
 
 
+<link rel="stylesheet" href="assets/css/miestilo.css">
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse">
-  		<div class="container-fluid">
-    		<div class="navbar-header">
-      			
-    </div>
-    			<ul class="nav navbar-nav">
-      			<li class="active"><a href="#">Inicio</a></li>
-      			<li><a href="#">Notificaciones</a></li>
-      			<li><a href="#">Mensajes</a></li>
-    </ul>
+<header>
+		<nav class="navbar navbar-inverse">
+	  		<div class="container-fluid">
+	    		<div class="navbar-header">
+	      			
+	    </div>
+	    			<ul class="nav navbar-nav">
+	      			<li class="active"><a href="#">Inicio</a></li>
+	      			<li><a href="#">Notificaciones</a></li>
+	      			<li><a href="#">Mensajes</a></li>
+	    </ul>
 
-    <form class="navbar-form navbar-left">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Buscar en Twitter...">
-      </div>
-    </form>
-  </div>
-</nav>
-
+	    <form class="navbar-form navbar-left">
+	      <div class="form-group">
+	        <input type="text" class="form-control" placeholder="Buscar en Twitter...">
+	      </div>
+	    </form>
+	  </div>
+	</nav>
+</header>
+<section>
 	<div class="container">
-<div class="row">
-<h1>Twitter Profile Card</h1>
-<p>You can use with Twitter API, bot or manual.</p>
-<!-- code start -->
-<div class="twPc-div">
-    <a class="twPc-bg twPc-block"></a>
+		<div class="row">
+			<div class="col-md-4">
+				<!-- code start -->
+				<div class="twPc-div">
+				    <a class="twPc-bg twPc-block"></a>
 
-	<div>
-		<div class="twPc-button">
-            <!-- Twitter Button | you can get from: https://about.twitter.com/tr/resources/buttons#follow -->
-            <a href="https://twitter.com/mertskaplan" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @valeriednoir</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-            <!-- Twitter Button -->   
-		</div>
+					<div>
+						<div class="twPc-button">
+				            <!-- Twitter Button | you can get from: https://about.twitter.com/tr/resources/buttons#follow -->
+				            <a href="https://twitter.com/valeriednoir" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @valeriednoir</a>
+				            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				            <!-- Twitter Button -->   
+						</div>
 
-		<a title="Valeria Contreras" href="https://twitter.com/valeriednoir" class="twPc-avatarLink">
-			<img alt="Valeria Contreras" src="assets/img/mifoto.jpg" class="twPc-avatarImg">
-		</a>
+						<a title="Valeria Contreras H." href="https://twitter.com/valeriednoir" class="twPc-avatarLink">
+							<img alt="Valeria Contreras H." src="assets/img/mifoto.jpg" class="twPc-avatarImg">
+						</a>
 
-		<div class="twPc-divUser">
-			<div class="twPc-divName">
-				<a href="https://twitter.com/valeriednoir">Valeria Contreras H.</a>
+						<div class="twPc-divUser">
+							<div class="twPc-divName">
+								<a href="https://twitter.com/valeriednoir">Valeria Contreras H.</a>
+							</div>
+							<span>
+								<a href="https://twitter.com/valeriednoir">@<span>Valeria Contreras H.</span></a>
+							</span>
+						</div>
+
+						<div class="twPc-divStats">
+							<ul class="twPc-Arrange">
+								<li class="twPc-ArrangeSizeFit">
+									<a href="https://twitter.com/valeriednoir" title="491 Tweet">
+										<span class="twPc-StatLabel twPc-block">Tweets</span>
+										<span class="twPc-StatValue">491</span>
+									</a>
+								</li>
+								<li class="twPc-ArrangeSizeFit">
+									<a href="https://twitter.com/valeriednoir/following" title="885 Following">
+										<span class="twPc-StatLabel twPc-block">Following</span>
+										<span class="twPc-StatValue">400</span>
+									</a>
+								</li>
+								<li class="twPc-ArrangeSizeFit">
+									<a href="https://twitter.com/valeriednoir/followers" title="491 Followers">
+										<span class="twPc-StatLabel twPc-block">Followers</span>
+										<span class="twPc-StatValue">491</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
-			<span>
-				<a href="https://twitter.com/valeriednoir">@<span>valeriednoir</span></a>
-			</span>
+			<div class="col-md-8">
+					<div class="span4 well">
+				            <form id="tweet" accept-charset="UTF-8" action="" method="POST">
+				                <textarea class="span4" id="texto" name="texto"
+				                placeholder="¿Qué está pasando...?" rows="5"></textarea>
+				                <h6 class="pull-right">240 caracteres</h6>
+				                <button class="btn btn-info" type="submit">Tweetear</button>
+				            </form>
+				        </div>				
+			</div>
 		</div>
-
-		<div class="twPc-divStats">
-			<ul class="twPc-Arrange">
-				<li class="twPc-ArrangeSizeFit">
-					<a href="https://twitter.com/valeriednoir" title="4.440 Tweet">
-						<span class="twPc-StatLabel twPc-block">Tweets</span>
-							<span class="twPc-StatValue">4.440</span>
-				</a>
-				</li>
-				<li class="twPc-ArrangeSizeFit">
-					<a href="https://twitter.com/valeriednoir/following" title="491 Following">
-						<span class="twPc-StatLabel twPc-block">Following</span>
-						<span class="twPc-StatValue">400</span>
-					</a>
-				</li>
-				<li class="twPc-ArrangeSizeFit">
-					<a href="https://twitter.com/valeriednoir/followers" title="491 Followers">
-						<span class="twPc-StatLabel twPc-block">Followers</span>
-						<span class="twPc-StatValue">400</span>
-					</a>
-				</li>
-			</ul>
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-8" id="mensajes">
+				
+			</div>
 		</div>
 	</div>
-</div>
-<!-- fin de la primera columna -->
-</div>
-</div>		
+
+</section>
 </body>
 </html>
